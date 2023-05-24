@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading1{
+    text-align: center;
+    color: rgba(4, 0, 255, 0.717);
+}
+.heading2{
+    font-weight: 300;
+}
+
+.div2{
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px;
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+    /* align-items: center; */
+    margin: 0 auto;
+    width: 550px;
+}
+
+
+@media (max-width: 768px) {
+    .div2 {
+      max-width: 90%;
+      padding: 10px;
+    }
+  }
+
+
+.paragraph1{
+    color: rgba(0, 0, 0, 0.326);
+    
+}
+.div3{
+    padding-bottom: 15px;
+}
+.inp1{
+   padding: 10px;
+}
+.inp2{
+    padding: 10px;
+}
+.inp3{
+    width: 300px;
+    padding: 10px;
+}
+.inp4{
+    width: 300px;
+    padding: 10px;
+}
+.div4{
+    padding-bottom: 15px;
+}
+.paragraph2{
+    color: rgba(0, 0, 0, 0.326);
+    
+}
+select{
+    width: 105px;
+}
+
+.paragraph3{
+    color: rgba(0, 0, 0, 0.326);
+    
+}
+.div8 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+.paragraph3 {
+    margin-right: 10px;
+  }
+  
+.div8 {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.482);
+    padding: 7px;
+    border-radius: 10px 10px 10px 10px;
+   
+  }
+  
+ .form-check-input {
+    margin-right: 5px;
+     padding: 10px; 
+
+  } 
+  
+.paragraph5{
+    color: rgba(0, 0, 0, 0.326);
+}
+.paragraph6{
+    color: rgba(0, 0, 0, 0.326);
+}
+.Signup{
+    background-color: rgba(36, 128, 0, 0.922);
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.heading3{
+    font-weight: 300;
+    color: rgba(0, 115, 255, 0.776);
+}
